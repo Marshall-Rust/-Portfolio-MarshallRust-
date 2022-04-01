@@ -1,0 +1,184 @@
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  display: flex;
+  align-items: flex-end;
+  color: aqua;
+  background-color: grey;
+  margin: 0px;
+  padding: 10px;
+}
+
+
+/* nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  margin: 0px;
+  background-color:rgba(0, 0, 0, 0);
+} */
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  background-color: black;
+  align-items: center;
+  text-decoration:underline;
+  color: rgba(53, 209, 209, 0.699);
+
+  
+ 
+ 
+
+}
+
+nav a:hover {
+  background-size: 100% 100%;
+  background-color: rgb(218, 201, 201);
+}
+
+
+
+/* img {
+  width: 1600px;
+  height: 230px;
+} */
+
+.page-section {
+  margin: 25px;
+  padding: 10px;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+   */
+  
+}
+
+.boxs {
+  margin-left: 200px;
+  width: 1000px;
+}
+
+
+.work {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hero\ banner.jpeg");
+  height: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: #251818;
+    background-color: #57bebe;
+    font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* border:solid 1px #000; */
+  margin-top:10px;
+  
+
+}
+.flex-item {
+  display: block;
+}
+
+
+.flex-item > img {
+  /* width: 50%; */
+  
+  height: 200px;
+  padding: 8px;
+}
+
+.report > img {
+
+  width: 692px;
+  height: 200px;
+}
+
+
+h2 {
+ 
+  border-right: solid 20px black;
+  
+}
+ 
+
+
+.aboutmepara {
+  
+  margin: 50px;
+  
+  
+}
+
+.footer-container {
+  padding: 100px;
+}
+
+
+
+.footer-heading {
+  display: flex;
+  justify-content: space-evenly;
+  
+  margin: 30px;
+  align-items: center;
+  text-decoration:underline;
+  color: rgba(53, 209, 209, 0.699);
+
+}
+.footer-heading a:hover {
+  background-size: 100% 100%;
+  background-color: rgb(218, 201, 201);
+}
+
+
+
