@@ -1,8 +1,4 @@
-* {
-  /* box-sizing: border-box; */
-  margin: 0;
-  padding: 0;
-}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -17,24 +13,17 @@ body, html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
+
+.h1 {
+  font-size:40px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   color: aqua;
   background-color: grey;
-  margin: 0px;
-  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  padding: 0px;
+  
 }
-
-
-/* nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 15px;
-  margin: 0px;
-  background-color:rgba(0, 0, 0, 0);
-} */
-
 
 
 
@@ -46,25 +35,17 @@ body {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
   margin: 30px;
   background-color: black;
-  align-items: center;
-  text-decoration:underline;
   color: rgba(53, 209, 209, 0.699);
-
-  
- 
- 
-
+  text-underline-offset: 5px;
 }
 
 nav a:hover {
   background-size: 100% 100%;
   background-color: rgb(218, 201, 201);
 }
-
+ 
 
 
 /* img {
@@ -72,28 +53,30 @@ nav a:hover {
   height: 230px;
 } */
 
-.page-section {
-  margin: 25px;
-  padding: 10px;
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
-   */
+.left-border {
+  border-bottom: solid black 3px;
   
 }
 
 .boxs {
-  margin-left: 200px;
-  width: 1000px;
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+#about {
+  padding-left:100px;
+  padding-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
-.work {
+/* .work {
   display: flex;
   justify-content: center;
   
-}
+} */
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hero\ banner.jpeg");
@@ -116,51 +99,41 @@ nav a:hover {
     font-weight: bold;
 }
 
+
 .flex-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /* border:solid 1px #000; */
-  margin-top:10px;
   
-
-}
-.flex-item {
-  display: block;
+  justify-content: center; 
 }
 
-
-.flex-item > img {
-  /* width: 50%; */
+.flex-container img {
+  border: solid green 3px;
   
+  
+  width: 450px;
   height: 200px;
-  padding: 8px;
 }
+
+/* .flex-item {
+  display: block;
+} */
+
+
+/* .flex-item > img {
+  height: 200px;
+  
+} */ 
 
 .report > img {
-
-  width: 692px;
-  height: 200px;
+  width: 900px;
+  height: 400px;
+  border: solid green 3px;
 }
 
-
-h2 {
- 
-  border-right: solid 20px black;
-  
-}
- 
-
-
-.aboutmepara {
-  
-  margin: 50px;
-  
-  
-}
 
 .footer-container {
   padding: 100px;
+  
 }
 
 
@@ -180,5 +153,8 @@ h2 {
   background-color: rgb(218, 201, 201);
 }
 
-
-
+/* .aboutmepara {
+  display: flex;
+  border-right: solid black 3px;
+} */
+ 

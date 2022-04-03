@@ -5,17 +5,18 @@
   <title>Marshall Rust Portfolio</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="resetcss" href="./reset.css">
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
   <!--Main logo and nav bar-->
   <header>
-  <h1 class="h1">Marshall Rust</h1>
+  <div class="h1">Marshall Rust</div>
   <nav>
-    <a href="#about">About Me</a>
-    <a href="#work">Work</a>
-    <a href="#contact">Contact Me</a>
-    <a href="#">Resume</a>
+    <a href="#about">About Me</a>&nbsp;
+     <a href="#work">Work</a>&nbsp;
+     <a href="#contact">Contact Me</a>&nbsp;
+     <a href="#">Resume</a>&nbsp;
   </nav>
 </header>
 
@@ -32,13 +33,13 @@
 
 
     
-  <main class="page-wrapper">
+  <main class="page-wrapper"> 
     <!--about me-->
+    <div class="left-border"> About me   </div>
     <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div class="aboutmepara">
-        <p>"
-          'I was there, the day Horus slew the Emperor.
+      
+        <p class="mainP">
+          "'I was there, the day Horus slew the Emperor.
            ' It was a delicious conceit, and his comrades would chuckle at the sheer treason of it.
             The story was a good one. Torgaddon would usually be the one to cajole him into telling it, for Torgaddon was the joker,
             a man of mighty laughter and idiot tricks.'I was there, the day Horus slew the Emperor. ' It was a delicious conceit, and his comrades would chuckle at the sheer treason of it.
@@ -46,7 +47,7 @@
             for Torgaddon was the joker, a man of mighty laughter and idiot tricks."          </p>
         <br>
         <br>
-        <p>
+        <p class="mainP">
           "Your presence does not surprise me, Assassin.
            I have known of you ever since your craft entered the Eastern Fringes.
            Why did I not have you killed? Because your mission and the act you are about to commit proves the truth of all I have ever said or done.
@@ -61,22 +62,25 @@
 
   <!-- portfolio part-->
   <section class="page-section" id="work">
-    <h2>Work</h2>
+    <div class="left-border">Work</div>
     <div class="boxs">
       <a href="#" class="flex-item surf report"><img src="./images/galaxy.jpg"> </a>
+    </div>
       <div class="flex-container">
-        <a href="#" class="flex-item led-wall"><img src="./images/galaxy.jpg"></a>
+        <a href="#" class="flex-item led-wall"><img src="./images/galaxy.jpg"> </a>
         <a href="#" class="flex-item react-calc"><img src="./images/galaxy.jpg"></a>
         <a href="#" class="flex-item pastel-puzzles"><img src="./images/galaxy.jpg"></a>
         <a href="#" class="flex-item run-buddy"><img src="./images/galaxy.jpg"></a>
-      </div>
+      
       
     </div>
+
+
   </section>
   <!-- contact info-->
-  <div class="footer-container">
+  <div class="footer-container" id="contact">
     <div class="footer">
-      <h2>Contact Me</h2>
+      <div>Contact Me</div>
       <div class="footer-heading footer-1">
         <a href="#">619-610-8505</a>
         <a href="#">Marshall_Rust@yahoo.com</a>
